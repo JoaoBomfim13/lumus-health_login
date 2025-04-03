@@ -1,0 +1,72 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgba(255, 255, 255, 0.1);
+    background: url(https://images.unsplash.com/photo-1570002635809-7b7926e7236d?q=80&w=1746&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+}
+
+.main__content {
+    display: flex;
+}
+
+.loginBlock {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;  /* Alinha horizontalmente */
+  align-items: center;      /* Alinha verticalmente */
+  height: 100vh;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    width: 150%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.regButton{
+    display: flex;
+    margin:10px 0 7px 0;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 20px;
+    font-family: 'wix madefor display';
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 30pt;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#welcome {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    margin: 5px 0 5px 0;
+}
+.loginText {
+    margin: 5px 0 30px 0;
+    color: rgb(255, 255, 255);
+    
+}
+
+.loginButton {
+    border: 0px;
+    background-color: rgb(245, 219, 107) ;
+    width: 25%;
+    height: 20pt;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color:rgb(44, 44, 51)
+}
