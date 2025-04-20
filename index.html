@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="logStyle.css"/>
     <title>Lumus Health</title>
+    
 </head>
 <body>
     <div class="main__content">
         <div class="loginBlock">
-            <div class="login">
+            <form id="login-form">
                 <h1 class="loginText" id="welcome">Bem Vindo,</h1>
                 <h2 class="loginText">Pronto para iniciar sua jornada?</h2>
-                <input class ="regButton" type="text" name="Email" id="emailLogin" placeholder="Insira seu email">
-                <input class ="regButton" type="text" name="Senha" id="passwordLogin" placeholder="Insira sua senha">
-                <button class="loginButton">Iniciar!</button> 
-            </div>
+                <input class ="regButton" type="text" name="Email" id="username" placeholder="Insira seu email" required>
+                <input class ="regButton" type="password" name="Senha" id="password" placeholder="Insira sua senha" required>
+                <button class='loginButton' type="submit">Iniciar!</button>
+            <form id="login-form">
         </div>
     </div>
+
+    <script src="./login.js"></script>
     </body>
 </html>

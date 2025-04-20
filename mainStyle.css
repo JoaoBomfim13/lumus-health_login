@@ -1,0 +1,123 @@
+body {
+    background-color: #2D2B2F;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    height: 104px;
+}
+
+#logo {
+    height: 100%;
+}
+
+.main__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#subtittle {
+    font-size: 2.5rem;
+    color: #AAAAAA;
+    margin: 0;
+    font-weight: lighter;
+    
+}
+
+#tittle {
+    margin-top: 0;
+    color: #FFFFFF;
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#tittle__span {
+    color: #A6D466;
+}
+
+.habbits {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.meditation__card {
+    background-color: #AAAAAA;
+    width: 420px;
+    height: 300px;
+    border-radius: 1.9rem;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ai__card {
+    background-color: #AAAAAA;
+    width: 420px;
+    height: 300px;
+    border-radius: 1.9rem;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rike__card {
+    background-color: #AAAAAA;
+    width: 420px;
+    height: 300px;
+    border-radius: 1.9rem;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#meditation_img {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#ai_img {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#rike_img {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.text{
+    font-size: 16px;
+    padding: 12px;
+    background-color: #2D2B2F;
+    width: 200px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.green_spn {
+    color: #A6D466;
+}
